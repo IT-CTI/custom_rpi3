@@ -18,7 +18,7 @@ config BR2_PACKAGE_PYTHON_NUMPYF
 	depends on BR2_PACKAGE_PYTHON_NUMPY_ARCH_SUPPORTS
 	help
 	  NumPy is the fundamental package for scientific computing
-	  with Python with enable fortran !
+	  with Python with enable FORTRAN !
 
 	  Note that NumPy needs fenv.h fully supported by the
 	  C library.
