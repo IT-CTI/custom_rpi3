@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_MATPLOTLIB         
+	bool "python-matplotlib"
+	help
+     Plotting with Python
+
+	  http://matplotlib.org/

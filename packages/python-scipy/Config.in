@@ -1,0 +1,10 @@
+config BR2_PACKAGE_PYTHON_SCIPY     
+    select BR2_PACKAGE_PYTHON_NUMPYF
+	bool "python-scipy"
+		
+	help
+	  SciPy (pronounced "Sigh Pie") is open-source software for mathematics, science, and engineering. 
+	  It includes modules for statistics, optimization, integration, linear algebra, Fourier transforms, 
+	  signal and image processing, ODE solvers, and more
+
+	  http://www.scipy.org/
