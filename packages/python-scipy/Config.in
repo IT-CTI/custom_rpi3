@@ -1,5 +1,5 @@
 config BR2_PACKAGE_PYTHON_SCIPY     
-    select BR2_PACKAGE_PYTHON_NUMPYF
+    select BR2_PACKAGE_PYTHON_NUMPY
 	bool "python-scipy"
 		
 	help
