@@ -49,7 +49,7 @@ defmodule CustomRpi3.MixProject do
   defp deps do
     [
       {:nerves, "~> 1.4", runtime: false},
-      {:nerves_system_br, "1.8.0", runtime: false},
+      {:nerves_system_br, "1.8.2", runtime: false},
       {:nerves_toolchain_arm_unknown_linux_gnueabihf, "1.2.0", runtime: false},
       {:nerves_system_linter, "~> 0.3.0", runtime: false},
       {:ex_doc, "~> 0.18", only: [:dev, :test], runtime: false}
@@ -64,7 +64,6 @@ defmodule CustomRpi3.MixProject do
 
   defp package do
     [
-      maintainers: ["Frank Hunleth", "Justin Schneck"],
       files: package_files(),
       licenses: ["Apache 2.0"],
       links: %{"GitHub" => "https://github.com/IT-CTI/#{@app}"}
